@@ -5,7 +5,9 @@
 ul {
   list-style: none;
 }
-
+html body {
+  background-color: rgb(29, 29, 29);
+}
 .top-ul {
   list-style: none;
   margin: 0 auto;
@@ -17,7 +19,6 @@ ul {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  background-color: rgb(235, 235, 235);
   border-bottom: 2px solid rgb(114, 114, 114);
   padding: 10px;
   font-size: 17px;
@@ -88,4 +89,7 @@ body {
 }
 input[type='checkbox'] {
   width: 14px;
+}
+li {
+  color: white;
 }
