@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+.top-ul {
+  list-style: none;
+  margin: 0 auto;
+  display: block;
+}
+.top-li {
+  width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+  border-bottom: 2px solid rgb(114, 114, 114);
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  flex-direction: column;
+}
+.top-ul > .top-li {
+  border: 1px solid rgb(0, 115, 182);
+}
+
+.inner-li {
+  font-weight: lighter;
+  margin-top: 2px;
+  padding: 3px 10px 3px 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.completed {
+  text-decoration: line-through;
+}
+.wrapped {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+div {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 17px;
+  margin: 40px 0 10px 0;
+  width: 250px;
+  height: 30px;
+}
+
+span {
+  display: inline-block;
+}
+
+li {
+  height: auto;
+  word-break: break-all;
+}
+
+.add-btn {
+  margin: 5px 0 10px 0;
+}
+body {
+  padding-top: 20px;
+}
+.btn-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+input[type='checkbox'] {
+  width: 14px;
+}
