@@ -375,9 +375,7 @@ function App() {
         <Form.Group >
           <Form.Label>Email: </Form.Label>
           <Form.Control type="text" onChange={onChangeLogin} defaultValue={''} />
-        </Form.Group>
-        <Form.Group >
-          <Form.Label>Password: </Form.Label>
+            <Form.Label>Password: </Form.Label>
           <Form.Control type="text" onChange={onChangePass} defaultValue={''} />
         </Form.Group>
       </Modal.Body>
